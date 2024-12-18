@@ -1,0 +1,14 @@
+*{
+    padding: 0;
+    margin: 50px, 50px;
+    font-family: sans-serif;
+}
+body{
+    background-image: url('photo/login.jfif') no repeat;
+    background-size: cover;
+}
+div{
+    border: 100px;
+    border-color: black;
+}
+

@@ -1,0 +1,171 @@
+*{
+    margin :0;
+    padding: 0;
+}
+
+#menubar{
+    height: 20vh;
+    width: 177vh;
+    background-color: rgba(84, 148, 127, 0.76);
+    position: fixed;
+}
+.style{
+    height: 20vh;
+    width: 20vh;
+    background-color: rgba(84, 148, 127, 0.76);
+}
+.menubar-logo{
+    float:left;
+}
+#menubar ul{
+    float: right;
+}
+#menubar li{
+    display: inline-block;
+    list-style: none;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    margin-top: 20px;
+}
+#menubar li a{
+    text-decoration: none;
+    color: #fff;
+}
+#menubar li a:hover{
+    text-decoration: solid;
+    background-color:aquamarine;
+}
+
+#banner{
+    background-image: linear-gradient(rgba(0,0,0,0.5),#009664),
+    url('photo/home.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.banner-text{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img{
+    height: 20%;
+    width: auto;
+}
+.banner-text{
+    text-align: center;
+    color: #fff;
+    padding-top: 200px;
+}
+.banner-text h1{
+    font-size: 3em;
+}
+.banner-btn{
+    margin-top: 200px;
+    margin-left: 500px;
+}
+.banner-btn a{
+    width: 150px;
+    text-decoration:none;
+    text-align: center;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 12px 0;
+    color:#fff;
+    border: .5px solid #fff;
+    position: relative;
+    z-index: 1;
+    transition: color 0.5s;
+}
+    .banner-btn a span{
+        width: 0;
+        height: 100%;
+        position: absolute;
+        top:0;
+        left:0;
+        background: #fff;
+        z-index: -1;
+        transition: 0.5s;
+    }
+    .banner-btn a:hover span{
+        width: 100%;
+    }
+    .banner-btn a:hover{
+        color: #000;
+
+    }
+    .title-text{
+        position: relative;
+        width: 200px;
+        height: 50px;
+        margin: 40px 0;
+        background-color: #009664;
+        color: #fff;
+        font-size: 1.1em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: -30px 30px 20px rgba(0,0,0,0.3) ;
+    }
+    .we{
+        margin-left: 2%;
+    }
+    .cafe{
+        margin-left: 2%;
+    }
+
+    .box{
+        height: 100px;
+        width: 200px;
+        font-size: 14px;
+        background-color:wheat ;
+        padding: 15px;
+        margin: 20px;
+        text-align: center;
+        color: brown;
+        border-radius: 4px;
+        
+    }
+    .menu-img{
+        height: 80px;
+        width: 150px;
+    }
+    .menu{
+        display: flex;
+        background-color: azure;
+        
+    }
+    .box:hover{
+        box-shadow: 5px 5px 5px white;
+        background-color: burlywood;}
+
+    form{
+        width: 300px;
+        margin-left: 20px;
+    }
+    form label{
+        display: flex;
+        margin-top: 20px;
+        font-size: 18px;
+    }
+    form input{
+        width: 100%;
+        padding: 7px;
+        border: none;
+        border: 1px solid gray;
+        border-radius: 6px;
+        outline: none;
+    }
+    input[type="button"]{
+        width: 320px;
+        height: 35px;
+        margin-top: 20px;
+        border: none;
+        background-color: aquamarine;
+        color: white;
+        font-size: 18px;
+    }
+
+
