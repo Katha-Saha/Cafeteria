@@ -1,1 +1,1 @@
-# Cafeteria
+# Open index.html
